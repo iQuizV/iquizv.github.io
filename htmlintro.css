@@ -1,0 +1,8 @@
+td{
+    border: 2px, double, black;
+}
+
+table{
+    border: 4px, double, blue;
+    justify-self: center;
+}
