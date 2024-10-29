@@ -1,0 +1,36 @@
+<style>body {background-color: darkkhaki;}</style>
+<form method="GET"
+action="http://openbookproject.net/tutorials/getdown/resources/getecho.php">
+<fieldset>
+<legend>Personal Info</legend>
+<label>First Name: <input type="text" name="fname" size="30"></label><br>
+<label>Last Name:  <input type="text" name="lname" size="30"></label>
+</fieldset>
+
+<fieldset>
+<legend>Pizza</legend>
+<label>Toppings</label><br>
+<input type="radio" name="course" value="webdesign"> Pepperonni<br>
+<input type="radio" name="course" value="sql" checked> Cheese<br> 
+<input type="radio" name="course" value="programming"> Sausage<br>
+<label>Delivery slate</label><br>
+<select name="goal">
+  <option>AM</option>
+  <option>PM</option>
+  <option selected>Anytime</option>
+  <option>I don't like pizza</option>
+</select>
+<br>
+<label>Payment Type</label><br>
+<input type="checkbox" name="unix" value="1"> Cash
+<input type="checkbox" name="vim" value="1"> PayPal<br>
+<input type="checkbox" name="html" value="1"> Cashapp
+<input type="checkbox" name="css" value="1"> Visa<br>
+<input type="checkbox" name="python" value="1"> Mastercard
+<input type="checkbox" name="javascript" value="1"> Giftcard
+<br>
+<label>Special sides:</label><br>
+<textarea name="skills" cols="70" rows="4"></textarea>
+</fieldset>
+<button type="submit">Order</button>
+</form>
